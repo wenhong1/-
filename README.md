@@ -18,3 +18,18 @@
 4. 提供用户友好的界面和操作方式，方便用户使用和操作。
 5. 通过不断的优化和改进，不断提高系统的翻译质量和用户体验。
 本项目的实现将涉及自然语言处理、机器学习、人工智能等多个领域的技术和方法，需要团队成员具备相关的专业知识和技能。同时，我们将秉承用户至上的原则，不断优化和改进系统，为用户提供更加优质的服务。
+
+![8`OWN7JQ(N~R~20KE9$(OYT](https://github.com/wenhong1/-/assets/92089138/9886cf05-c3bf-42ea-8dd9-aa6621503961)
+
+
+
+
+![7(X497HQ2 (5LDP3~X{WEZ5](https://github.com/wenhong1/-/assets/92089138/148600b1-21f9-4273-9254-437df059f7e3)
+
+![2H6{DZ~){99P@IAUW63FPZI](https://github.com/wenhong1/-/assets/92089138/c7190eb8-bcbe-4d0d-b523-6a6be781c475)
+
+![ZX3GI}IC4ADB@ZH~P_K (}W](https://github.com/wenhong1/-/assets/92089138/8c4e3eea-6f02-4c84-9b68-cb48ed90e7f2)
+
+
+![{F9{@7KP$6QR1JNVQ@B53NI](https://github.com/wenhong1/-/assets/92089138/a5f0df88-a775-439e-a2fe-40aaa21138ac)
+
