@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>博古通今</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="shortcut icon" href="#">
+    
+</head>
+<body>
+    <div class="top">
+        <!--a href="#" target="_self">首页</a>
+        <a href="#" target="_blank">关于我们</a-->
+    </div>
+
+    <div class="content">
+        <h1 class="avr">博古通今——文言文与现代文互译系统</h1>
+    </div>
+
+    <form method="post" action="#">
+        <div class="switch">
+            <label for="source"></label><select id="source" name="source_language">
+                <option value="wyw">文言文</option>
+                <option value="zh">现代文</option>
+            </select>
+            <label for="target"></label><select id="target" name="target_language">
+                <option value="wyw">文言文</option>
+                <option value="zh">现代文</option>
+            </select>
+            <br/>
+        </div>
+
+        <div class="text">
+            <label for="t1">
+                <textarea cols="45" rows="20" id="t1" name="input" placeholder="请输入您要翻译的内容">{{inpt}}</textarea>
+            </label>
+
+            <label for="t2">
+                <textarea cols="45" rows="20" id="t2" name="output" placeholder="翻译结果">{{outpt}}</textarea>
+            </label>
+            <button type ="submit" id="b">翻译</button>
+            <button type="submit" name="clear" id="b">清除</button>
+        </div>
+
+        </form>
+
+    <script type="text/javascript">
+        var source_id= '{{source_language}}';
+        var target_id= '{{target_language}}';
+        document.getElementById('source').value=source_id;
+        document.getElementById('target').value=target_id;
+    </script>
+    
+</body>
+</html>

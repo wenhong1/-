@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>登录注册</title>
+  <style>
+    body {text-align: center;}
+    input[type=text], input[type=password], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    .container {
+      width: 500px;
+      height: 350px;
+      margin: auto;
+      border: 3px solid #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>欢迎来到登录注册界面</h2>
+  <div class="container">
+    <form id="login-form">
+      <h3>登录</h3>
+      <label for="username"><b>用户名：</b></label>
+      <input type="text" placeholder="请输入用户名" name="username" required>
+
+      <label for="password"><b>密码：</b></label>
+      <input type="password" placeholder="请输入密码" name="password" required>
+    
+      <button type="submit">登录</button>
+    </form>
+
+    <form id="register-form">
+      <h3>注册</h3>
+      <label for="username"><b>用户名：</b></label>
+      <input type="text" placeholder="请输入用户名" name="username" required>
+
+      <label for="password"><b>密码：</b></label>
+      <input type="password" placeholder="请输入密码" name="password" required>
+
+      <label for="confirmpsw"><b>确认密码：</b></label>
+      <input type="password" placeholder="请再次输入密码" name="confirmpsw" required>
+
+      <button type="submit">注册</button>
+    </form>
+  </div>
+
+  <script>
+    // 登录表单提交事件处理
+    document.querySelector("#login-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const username = this.username.value.trim();
+      const password = this.password.value.trim();
+      // TODO：发送登录请求给后端，处理后续逻辑
+    });
+
+    // 注册表单提交事件处理
+    document.querySelector("#register-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const username = this.username.value.trim();
+      const password = this.password.value.trim();
+      const confirmpsw = this.confirmpsw.value.trim();
+      if (password !== confirmpsw) {
+        alert("两次输入密码不一致，请重新输入！");
+        return;
+      }
+      // TODO：发送注册请求给后端，处理后续逻辑
+    });
+  </script>
+</body>
+</html>

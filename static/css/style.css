@@ -1,0 +1,111 @@
+style.css
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/bj.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content {
+    perspective: 400px;
+    width: 100%;
+    height: 240px;
+    position: relative;
+}
+
+.avr{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    bottom: 0;
+    color: #000000;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.top {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+.top a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 10px;
+ }
+ 
+.top a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.text {
+    background-color:rgba(255, 255, 255, 0);
+    margin: auto;
+    margin-bottom: 50px;
+    height: 350px;
+}
+#t1 {
+    float: left;
+    width: 45%;
+    text-align: center;
+    font-size: larger;
+}
+#button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#b {
+  text-align: center;
+  font-size: medium;
+  margin-top: 10px;
+}
+
+/*#b {*/
+/*    text-align: center;*/
+/*    font-size: medium;*/
+/*}*/
+#t2 {
+    float: right;
+    width: 45%;
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(221, 221, 221, 0.895);
+}
+
+.switch {
+    background-color:rgba(255, 255, 255, 0.847);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#source {
+    float: left;
+    width: 40%;
+    text-align: center;
+    color: rgb(103, 217, 240);
+    font-size: large;
+}
+#target {
+    float: right;
+    width: 40%;
+    text-align: center;
+    color: rgb(103, 217, 240);
+    font-size: large;
+}
